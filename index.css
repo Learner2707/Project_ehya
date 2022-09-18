@@ -1,0 +1,218 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+:root {
+  --master-font: "Inter", sans-serif;
+}
+.container {
+  height: 4000px;
+}
+
+.top-section {
+  background-image: url(./images/Background.png);
+  background-repeat: no-repeat;
+}
+.header {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  padding: 30px 0px 0px 150px;
+}
+.nav-bar-ul {
+  display: flex;
+  align-items: center;
+  margin-left: 349px;
+  /* justify-content: space-between; */
+}
+.nav-bar-ul-li {
+  padding: 0px 26px;
+}
+
+.nav-bar-ul-li a {
+  font-family: var(--master-font);
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.logo-div {
+  min-width: 90px;
+}
+.logo-image {
+  width: 100%;
+}
+.nav-bar-button {
+  color: white;
+  font-family: var(--master-font);
+  font-weight: 600;
+  font-size: 16px;
+  border: 2px solid white;
+  border-radius: 7px;
+  padding: 13px 27px;
+  margin-left: 16px;
+}
+
+.top-section-para-one {
+  font-family: var(--master-font);
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 100px 0px 0px 651px;
+  text-align: center;
+}
+.top-section-para-two {
+  font-family: var(--master-font);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #ffffff;
+  width: 51%;
+  margin: 24px auto;
+}
+.top-section-button-div {
+  margin: 0 auto;
+  width: 34%;
+}
+.top-section-button1 {
+  padding: 14px 24px 15px 24px;
+  /* font-family: var(--master-font); */
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  color: #1565d8;
+  border-radius: 8px;
+  background-color: #ffffff;
+  border: none;
+  margin-right: 20px;
+}
+.forward-arrow {
+  margin-left: 25px;
+}
+.forward-arrow {
+  margin-left: 25px;
+}
+.top-section-button2 {
+  padding: 14px 24px 15px 24px;
+  /* font-family: var(--master-font); */
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  border: 2px solid #ffffff;
+  color: white;
+  background: rgba(21, 101, 216, 0.1);
+}
+.top-section-dashboard {
+  height: 451px;
+  width: 755px;
+  background-image: url(./images/Macbook.jpg);
+
+  margin: 96px 0px 0px 343px;
+  border-radius: 27px;
+  background-repeat: no-repeat;
+}
+.features-section {
+  margin-top: 144px;
+}
+.features-section-title {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.features-section-heading-div {
+  font-size: 14px;
+  font-family: var(--master-font);
+  font-weight: 600;
+  width: 101px;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+.features-section-heading {
+  color: #1565d8;
+  text-align: center;
+  /* background-color: rgb(157, 167, 170); */
+  background-color: rgb(205, 220, 228);
+
+  border-radius: 2000px;
+  padding: 6px 16px;
+  z-index: 1;
+  width: 104%;
+  font-size: 14px;
+  margin: -2px;
+}
+.features-section-subheading {
+  color: #183b56;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+}
+.features-section-para {
+  color: #5a7184;
+  font-family: var(--master-font);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+}
+.features-section-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  margin-top: 58px;
+}
+.feature-card {
+  width: 24%;
+}
+.card-icon-div {
+}
+.card-icon {
+  border-radius: 16px;
+}
+
+.card-heading {
+  /* font-family: var(--master-font); */
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: #183b56;
+}
+.card-info {
+  font-family: var(--master-font);
+  color: #5a7184;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0px;
+  margin: 12px 30px 19px 33px;
+}
+.card-button button {
+  color: #1565d8;
+  border: none;
+  background: none;
+  /* font-family: Open Sans; */
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.background-wave{
+  margin-top: 91px;
+}
+.background-wave img{
+  width: 100%;
+}
+.analytics-section{
+  display: flex;
+}

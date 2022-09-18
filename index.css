@@ -6,6 +6,7 @@
 }
 :root {
   --master-font: "Inter", sans-serif;
+  --master-font2: "Open Sans", sans-serif;
 }
 .container {
   height: 4000px;
@@ -115,7 +116,7 @@
   width: 755px;
   background-image: url(./images/Macbook.jpg);
 
-  margin: 96px 0px 0px 343px;
+  margin: 93px 0px 0px 343px;
   border-radius: 27px;
   background-repeat: no-repeat;
 }
@@ -213,6 +214,7 @@
 }
 .background-wave {
   margin-top: 91px;
+  margin-bottom: -5px;
 }
 .background-wave img {
   width: 100%;
@@ -226,16 +228,79 @@
   );
 }
 .analytics-chart {
-  width: 50%;
+  width: 56%;
   /* background-image: url(./images/analytics\ chart.jpg); */
   /* background-repeat: no-repeat; */
-  
-  margin: 30px 0px 0px 0px;
-  height: 541px;
+  background: linear-gradient(
+    180deg,
+    #f8fbff 0%,
+    rgba(250, 251, 251, 0.0001) 100%
+  );
+  margin: 50px 0px 0px 0px;
+  /* height: 541px; */
 }
 .analytics {
   width: 50%;
 }
+
+.analytics-heading {
+  font-family: var(--master-font);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #37e36b;
+}
+.analytics-sub-heading {
+  font-family: var(--master-font2);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 48px;
+
+  text-align: left;
+  color: #183b56;
+  padding-right: 228px;
+  margin-top: 16px;
+}
+.analytics-info {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5a7184;
+  width: 67%;
+  margin-top: 20px;
+}
 .analytics-cards {
   display: flex;
+  margin-top: 40px;
+}
+.analytics-card-icon-div{
+
+}
+.analytics-card-icon{
+
+}
+.analytics-card-heading{
+  font-family: HK Grotesk;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #183B56;
+  margin: 19px 0px 7px 0px;
+}
+.analytics-card-info{
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5A7184;
+  width: 73%;
 }

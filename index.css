@@ -481,6 +481,9 @@
 .collaborate-image {
   width: 100%;
 }
+
+/* ******integration section *********** */
+
 .integration-section {
   
   position: relative;
@@ -535,3 +538,56 @@
   bottom: -236px;
   left: 176px;
 } */
+
+
+.reviews-section{
+
+}
+.reviews-section-heading{
+
+}
+.clients-div{
+display: flex;
+}
+.client-icon-div{
+
+}
+.client-icon{
+
+}
+.user-reviews-div{
+
+}
+.review-company-icon-div{
+
+}
+.review-company-icon{
+
+}
+.review-text{
+
+}
+.reviewer-details{
+
+}
+.reviewer-photo-div{
+
+}
+.reviewer-photo{
+
+}
+.reviewerName-plus-verification-details{
+  display: flex;
+}
+.reviewer-name{
+
+}
+.verification-status{
+
+}
+.verified-icon{
+
+}
+.verification-text{
+  
+}

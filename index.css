@@ -9,7 +9,6 @@
   --master-font2: "Open Sans", sans-serif;
 }
 .container {
-  height: 10000px;
 }
 
 .top-section {
@@ -882,6 +881,7 @@
 .plan-premium-btn-color {
   background-color: #1565d8;
   color: white;
+  border-color: #1565d8;
 }
 .button-content-div {
   width: 242px;
@@ -892,11 +892,89 @@
 .arrow {
   margin: 0px 22px 0px 37px;
 }
-. {
+footer {
+  width: 1140px;
+  margin: 0 auto;
 }
-. {
+.footer-flex-div {
+  display: flex;
 }
-. {
+.footer-logo-section {
+  margin: 0 88px 0px 0px;
+  width: 270px;
 }
-. {
+.ehya-logo-div {
+  width: 100px;
+  padding-bottom: 14px;
+  width: 270px;
+}
+.ehya-logo {
+}
+.footer-logo-info-div {
+  padding: 16px 0px 14px 0px;
+  width: 263px;
+}
+.footer-logo-info {
+  font-family: var(--master-font2);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #5a7184;
+}
+
+.social-media-div {
+  display: flex;
+}
+.footer-logo-section-logo {
+  padding: 16px 6px 0px 0px;
+}
+.footer-sections-div {
+  width: 170px;
+}
+.footer-section {
+  width: 170px;
+}
+.footer-section-heading {
+  font-family: var(--master-font2);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  text-align: left;
+  color: #183b56;
+  width: 90px;
+  padding-bottom: 31px;
+}
+.footer-section-items {
+  font-family: var(--master-font2);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: left;
+  color: #183b56;
+  padding-bottom: 24px;
+}
+.footer-copyright-section {
+}
+.heart-icon-div {
+  width: 60px;
+  margin: 0 auto;
+  padding-bottom: 24px;
+}
+.heart-icon {
+  width: 100%;
+}
+.copyright-text-div {
+  width: 300px;
+  margin: 0 auto;
+}
+.copyright-text {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #5a7184;
 }

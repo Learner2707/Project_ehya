@@ -9,15 +9,17 @@
   --master-font2: "Open Sans", sans-serif;
 }
 .container {
+  width:1320px; 
+   margin: 0 auto; 
 }
 
 .top-section {
   background-image: url(./images/Background.png);
   background-repeat: no-repeat;
 }
-.header {
+header {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   align-items: center;
   padding: 30px 0px 0px 150px;
 }
@@ -143,11 +145,11 @@
 
 .features-section-heading-div {
   font-size: 14px;
-  font-family: var(--master-font);
+  font-family: var(--master-font2);
   font-weight: 600;
   width: 101px;
   margin: 0 auto;
-  border: 2px solid black;
+  /* border: 2px solid black; */
 }
 .features-section-heading {
   color: #1565d8;
@@ -157,7 +159,6 @@
 
   border-radius: 2000px;
   padding: 6px 16px;
-  z-index: 1;
   width: 104%;
   font-size: 14px;
   margin: -2px;
@@ -186,8 +187,7 @@
   margin-top: 58px;
 }
 .feature-card {
-  /* width: 24%; */
-  width: 19%;
+  width: 22%;
 }
 .card-icon-div {
 }
@@ -196,7 +196,7 @@
 }
 
 .card-heading {
-  /* font-family: var(--master-font); */
+  font-family: var(--master-font2);
   font-size: 20px;
   font-weight: 700;
   text-align: center;
@@ -204,7 +204,7 @@
   margin-top: 35px;
 }
 .card-info {
-  font-family: var(--master-font);
+  font-family: var(--master-font2);
   color: #5a7184;
   font-size: 16px;
   font-weight: 600;
@@ -385,12 +385,15 @@
   width: 360px;
   margin-bottom: 65px;
 }
-.more-features-card-icon-plus-heading-div {
+.more-features-card-icon-plus-heading-plus-info-div {
   display: flex;
 }
 .more-features-card-icon-div {
 }
 .more-features-card-icon {
+}
+.more-features-card-heading-plus-info{
+  margin-left: 24px;
 }
 .more-features-card-heading {
   font-family: var(--master-font2);
@@ -399,7 +402,7 @@
   line-height: 32px;
   text-align: left;
   color: #183b56;
-  margin-left: 24px;
+  
 }
 .more-features-card-info {
   font-family: var(--master-font2);
@@ -629,8 +632,10 @@
 .pricing-section {
   background: linear-gradient(180deg, #f8fbff 0%, #fcfeff 100%);
   padding-bottom: 120px;
+  margin-top: 89px;
 }
 .pricing-section-wave {
+  padding-bottom: 140px;
 }
 .pricing-section-wave-img {
   width: 100%;
@@ -964,6 +969,7 @@ footer {
 }
 .heart-icon {
   width: 100%;
+  border-radius: 30px;
 }
 .copyright-text-div {
   width: 300px;

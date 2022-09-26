@@ -1,0 +1,172 @@
+body{
+    height: 2000px;
+}
+
+.integration-section {
+
+
+    margin-top: 25px;
+    border: 1px solid black;
+    height: 651px;
+    position: relative;
+
+
+
+  }
+  .integration-content {
+
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .integration-heading-div{
+    margin-bottom: 16px;
+  }
+  .integration-heading {
+    font-family: var(--masterFont2);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #36b37e;
+    
+  }
+  .integration-sub-heading-div{
+    width: 42%;
+    margin: 0 auto 20px auto;
+  }
+  .integration-sub-heading {
+    font-family: var(--masterFont2);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    color: #183b56;
+  }
+
+  .integration-info-div{
+    width: 44%;
+    margin: 0 auto;
+  }
+  .integration-info {
+    font-family: var(--masterFont2);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #5a7184;
+   
+  }
+.integration-images{
+   
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.lines-div{
+
+  }
+.left-line1-div{
+position: absolute;
+left: 4%;
+    top: 0%;
+}
+.left-line1-img{
+    
+}
+.left-line2-div{
+position: absolute;
+left: 10%;
+    top: 4%;
+}
+.left-line2-img{
+
+}
+.left-line3-div{
+position: absolute;
+left: 15%;
+top: 11%;
+}
+.left-line3-img{
+
+}
+.right-line1-div{
+position: absolute;
+right: 4%;
+    top: 0%;
+}
+.right-line1-img{
+
+}
+.right-line2-div{
+position: absolute;
+right: 10%;
+top: 4%;
+}
+.right-line2-img{
+
+}
+.right-line3-div{
+position: absolute;
+right: 15%;
+top: 11%;
+}
+.right-line3-img{
+
+}
+.icons-div{
+
+}
+.left-icon1-div{
+position: absolute;
+left: 5%;
+    top: 13%;
+}
+.left-icon1-img{
+    
+}
+.left-icon2-div{
+position: absolute;
+bottom: 15%;
+left: 8%;
+}
+.left-icon2-img{
+
+}
+.left-icon3-div{
+position: absolute;
+top: 41%;
+    left: 10%;
+}
+.left-icon3-img{
+
+}
+.right-icon1-div{
+position: absolute;
+right: 5%;
+    top: 13%;
+}
+.right-icon1-img{
+
+}
+.right-icon2-div{
+position: absolute;
+bottom: 15%;
+right: 8%;
+}
+.right-icon2-img{
+
+}
+.right-icon3-div{
+position: absolute;
+top: 41%;
+    right: 10%;
+
+}
+.right-icon3-img{
+
+}

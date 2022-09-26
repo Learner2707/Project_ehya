@@ -1,49 +1,275 @@
-@media screen and (min-width:1400px)
-{
-    .container{
-        width: 1320px;
-        margin: 0 auto;
-    }
-}
-    
-
-@media  screen and (min-width:1200px) and (max-width:1399px)
-{
-    .container{
-        width: 1140px;
-        margin: 0 auto;
-    }
-}
-@media  screen and (min-width:992px) and (max-width:1199px)
-{
-    .container{
-        width: 960px;
-        margin: 0 auto;
-    }
- 
-}
-@media  screen and (min-width:768px) and (max-width:991px)
-{
-    .container{
-        width: 720px;
-        margin: 0 auto;
-    }
-
-}
-@media  screen and (min-width:540px) and (max-width:767px)
-{
-    .container{
-        width: 540px;
-        margin: 0 auto;
-    } 
-}
-@media  screen and (min-width:320px) and (max-width:539px)
-{
-    .container{
-        width: 100%;
-        margin: 0 15px;
-    } 
+@media screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    margin: 0 auto;
+  }
 }
 
+@media only screen and (min-width: 1200px) and (max-width: 1399px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+  .top-section {
+    background-size: 1199px 959px;
+}
+  .top-section-para-one {
+    width: 62%;
+    font-size: 45px;
+  }
+  .top-section-para-two{
+    width: 71%;
+  }
+  .top-section-dashboard-main-img{
+    width: 75%;
+  }
+  .top-section-dashboard-engagement-img {
+    left: 16%;
+    bottom: 19%;
+    width: 13%;
+}
+.top-section-dashboard-audience-img {
+  right: 13%;
+  bottom: 9%;
+  width: 12%;
+}
+  .features-section {
+    padding: 0px;
+  }
+  .analytics-section {
+    padding-top: 10px;
+    padding-bottom: 0px;
+  }
+  .section-dividing-line {
+    margin-top: 70px;
+  }
+  .collaborate-section {
+    display: flex;
+    padding-bottom: 30px;
+  }
+  .integration-section {
+    margin-bottom: 30px;
+  }
 
+  .clients-div {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px 30px 0px;
+    flex-wrap: wrap;
+    row-gap: 25px;
+  }
+  .client-icon-div {
+    width: 30%;
+    text-align: center;
+  }
+  .pricing-section {
+    margin-top: 0px;
+    padding-bottom: 75px;
+  }
+  .pricing-section-wave {
+    padding-bottom: 25px;
+  }
 
+  .pricing-section-heading-div {
+    width: 16%;
+  }
+  .pricing-section-sub-heading-div {
+    width: 45%;
+  }
+  .pricing-section-sub-heading-para {
+    font-size: 29px;
+  }
+  .get-started-link {
+    display: block;
+    text-align: center;
+  }
+  .billing-monthly {
+    width: 13%;
+  }
+  .choose-option {
+    width: 7%;
+  }
+  .plan {
+    width: 32%;
+  }
+  .plan-price {
+    font-size: 37px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  /* top section */
+
+  .top-section {
+    background-size: 991px 888px;
+}
+.top-section-dashboard-main-img{
+  width: 100%;
+}
+.top-section-dashboard {
+  padding-top: 75px;
+}
+.top-section-dashboard-engagement-img {
+  left: 6%;
+  bottom: 17%;
+}
+.top-section-dashboard-audience-img {
+  right: 0%;
+  bottom: 9%;
+}
+  .nav-bar-button {
+    padding: 8px 10px;
+}
+  .top-section-para-one {
+    font-size: 40px;
+    width: 68%;
+  }
+  .top-section-para-two {
+    font-size: 18px;
+    width: 86%;
+}
+.top-section-button-div {
+  padding: 0px;
+}
+.top-section-button1 {
+    padding: 10px 20px;
+    font-size: 17px;
+  }
+  .top-section-button2{
+    padding: 8px 20px;
+  font-size: 17px;
+
+}
+  /* features section */
+
+  .features-section {
+    padding: 0px 0px;
+}
+.features-section-heading-div {
+  width: 14%;
+}
+.features-section-subheading-div {
+  width: 73%;
+}
+.features-section-para-div {
+  width: 100%;
+}
+.features-section-cards {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+.feature-card {
+  width: 48%;
+  margin: 0px;
+}
+.card-icon-div {
+  width: 50%;
+}
+.card-info-div {
+  width: 80%;
+}
+  /* analytics section */
+  .analytics-section {
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+  .analytics-sub-heading {
+    font-size: 30px;
+}
+.analytics-section-content {
+  flex-wrap: wrap;
+}
+.analytics-chart-div {
+  width: 80%;
+  margin: 0 auto;
+}
+.analytics {
+  width: 100%;
+  text-align: center;
+  /* margin-left: 40px; */
+}
+.analytics-heading-div {
+  width: 100%;
+}
+.analytics-sub-heading-div {
+  width: 100%;
+}
+.analytics-info-div {
+  margin-top: 20px;
+  width: 100%;
+}
+.analytics-card{
+  
+  width: 48%;
+  text-align: center;
+}
+.analytics-card-icon-div {
+  margin: 0 auto;
+  height: 23%;
+}
+.analytics-card-heading-div {
+  margin: 19px 0px 7px 0px;
+  width: 100%;
+}
+.analytics-card-heading {
+  text-align: center;
+}
+.analytics-card-info-div {
+  width: 100%;
+}
+.analytics-button {
+  width: 100%;
+}
+.analytics-button {
+  background-position-y: center;
+  background-position-x: 66%;
+}
+  /* more features section */
+  /* collaborate section */
+  /* integration section */
+  /* reviews section */
+  /* pricing section */
+  /* footer section */
+}
+@media screen and (min-width: 540px) and (max-width: 767px) {
+  .container {
+    max-width: 540px;
+    margin: 0 auto;
+  }
+  /* top section */
+  /* features section */
+  /* analytics section */
+  /* more features section */
+  /* collaborate section */
+  /* integration section */
+  /* reviews section */
+  /* pricing section */
+  /* footer section */
+}
+@media screen and (min-width: 320px) and (max-width: 539px) {
+  .container {
+    width: 100%;
+    padding: 0 15px;
+  }
+  /* top section */
+  /* features section */
+  /* analytics section */
+  /* more features section */
+  /* collaborate section */
+  /* integration section */
+  /* reviews section */
+  /* pricing section */
+  /* footer section */
+}

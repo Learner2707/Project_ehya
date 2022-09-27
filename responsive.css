@@ -18,6 +18,7 @@
   }
   .top-section {
     background-size: 1199px 959px;
+    background-position-x: center;
 }
   .top-section-para-one {
     width: 62%;
@@ -26,17 +27,20 @@
   .top-section-para-two{
     width: 71%;
   }
+  .top-section-dashboard{
+    padding: 53px 0px;
+  }
   .top-section-dashboard-main-img{
     width: 75%;
   }
   .top-section-dashboard-engagement-img {
     left: 16%;
-    bottom: 19%;
+    bottom: 22%;
     width: 13%;
 }
 .top-section-dashboard-audience-img {
   right: 13%;
-  bottom: 9%;
+  bottom: 14%;
   width: 12%;
 }
   .features-section {
@@ -101,6 +105,9 @@
   .plan-price {
     font-size: 37px;
   }
+  .standard-btn-margin-top {
+    margin-top: 48px;
+}
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -113,6 +120,7 @@
 
   .top-section {
     background-size: 991px 888px;
+    background-position-x: center;
 }
 .top-section-dashboard-main-img{
   width: 100%;
@@ -231,23 +239,718 @@
 }
 .analytics-button {
   width: 100%;
-}
-.analytics-button {
   background-position-y: center;
   background-position-x: 66%;
 }
+
   /* more features section */
+  .more-features-sub-heading {
+    font-size: 32px;
+}
+.more-features-info-div {
+  width: 100%;
+}
+.more-features-cards-div{
+  flex-wrap: wrap;
+}
+.more-features-card {
+  width: 50%;
+}
+.section-dividing-line {
+  margin-top: 85px;
+}
   /* collaborate section */
+  .collaborate-section {
+    flex-wrap: wrap;
+    padding-bottom: 27px;
+}
+
+.collaborate-content {
+  margin-top: 0px;
+  width: 100%;
+  text-align: center;
+}
+.collaborate-heading{
+  text-align: center;
+}
+.collaborate-sub-heading{
+  text-align: center;
+  font-size: 32px;
+  
+}
+.collaborate-info-div{
+  width: 100%;
+  
+}
+.collaborate-info{
+  text-align: center;
+
+}
+.collaborate-checkbox-info-div {
+  margin: 0px auto 63px auto;
+  row-gap: 21px;
+  width: 67%;
+  column-gap: 60px;
+}
+.collaborate-image-section{
+  height: 500px;
+  width: 100%;
+}
+  .lady1-div {
+    width: 22%;
+    top: 13%;
+    left: 27%;
+}
+  .man1-div {
+    width: 26%;
+    top: 3%;
+    right: 23%;
+    height: 50%;
+}
+.lady2-div {
+  width: 18%;
+  left: 34%;
+  bottom: 17%;
+}
+.man2-div {
+  width: 22%;
+  right: 24.5%;
+  bottom: 12%;
+}
+.collaborate-pattern-div {
+  right: 42.5%;
+  bottom: 8%;
+  width: 10%;
+}
   /* integration section */
+  .integration-sub-heading-div {
+    width: 48%;
+    margin: 12px auto 20px auto;
+}
+.integration-sub-heading {
+  font-size: 32px;
+}
+.left-icon3-div {
+  left: 7%;
+}
+.right-icon3-div {
+  right: 7%;
+}
+
+
+
   /* reviews section */
+  .clients-div {
+    flex-wrap: wrap;
+    row-gap: 22px;
+    justify-content: space-between;
+}
+
+.user-review {
+  width: 41%;
+}
   /* pricing section */
+  .pricing-section {
+    margin-top: 0px;
+}
+.pricing-section-wave {
+  padding-bottom: 33px;
+}
+.pricing-section-heading-div {
+  width: 20%;
+}
+.pricing-section-sub-heading-div {
+  width: 66%;
+}
+.pricing-section-sub-heading-para {
+  font-size: 32px;
+}
+.pricing-section-info-para {
+  text-align: center;
+}
+.pricing-section-info-div {
+  width: 53%;
+}
+.billing-monthly {
+  width: 17%;
+}
+.choose-option {
+  width: 9%;
+}
+.plan-options {
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.plan {
+  width: 51%;
+  margin: 0 auto;
+}
+.plan-top-tab {
+  height: 8px;
+}
+.standard-btn-margin-top {
+  margin-top: 48px;
+}
+
   /* footer section */
+  .footer-flex-div {
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.footer-sections-div {
+  width: 50%;
+  text-align: center;
+}
+  .footer-section-heading {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+.footer-section-items{
+  text-align: center;
+}
+.footer-logo-section {
+  order: 2;
+  width: 100%;
+  text-align: center;
+}
+.ehya-logo {
+  width: 14%;
+}
+.footer-logo-info-div {
+  padding: 16px 0px 14px 0px;
+  /* width: 60%; */
+  /* width: 220px; */
+  width: 100%;
+  /* text-align: center; */
+}
+.footer-logo-info {
+  font-family: var(--masterFont2);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #5a7184;
+}
+.social-media-div {
+  display: flex;
+  width: 37%;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer-logo-section-logo {
+  padding: 16px 6px 0px 0px;
+  width: 25%;
+}
+
+.footer-copyright-section {
+  margin-top: 50px;
+}
+
 }
 @media screen and (min-width: 540px) and (max-width: 767px) {
   .container {
     max-width: 540px;
     margin: 0 auto;
   }
+ /* top section */
+
+  .top-section {
+    background-size: 768px 839px;
+    background-position-x: center;
+}
+.nav-bar{
+  display: none;
+}
+.hamburger-div {
+  display: block;
+  padding: 0px 17px;
+}
+.top-section-dashboard-main-img{
+  width: 100%;
+}
+.top-section-dashboard {
+  padding-top: 75px;
+}
+.top-section-dashboard-engagement-img {
+  left: 6%;
+  bottom: 19%;
+}
+.top-section-dashboard-audience-img {
+  right: 0%;
+  bottom: 11%;
+  width: 24%;
+}
+  .nav-bar-button {
+    padding: 8px 10px;
+}
+  .top-section-para-one {
+    font-size: 32px;
+    width: 65%;
+  }
+  .top-section-para-two {
+    font-size: 18px;
+    width: 86%;
+}
+.top-section-button-div {
+  padding: 0px;
+}
+.top-section-button1 {
+    padding: 10px 20px;
+    font-size: 17px;
+  }
+  .top-section-button2{
+    padding: 8px 20px;
+  font-size: 17px;
+
+}
+  /* features section */
+
+  .features-section {
+    padding: 0px 0px;
+}
+.features-section-heading-div {
+  width: 19%;
+}
+
+.features-section-subheading-div {
+  width: 73%;
+}
+.features-section-subheading {
+  font-size: 32px;
+}
+.features-section-para-div {
+  width: 100%;
+}
+.features-section-para{
+
+  font-size: 17px;
+}
+.features-section-cards {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 32px;
+}
+.feature-card {
+  width: 48%;
+  margin: 0px;
+}
+.card-icon-div {
+  width: 50%;
+}
+.card-info-div {
+  width: 80%;
+}
+  /* analytics section */
+  .analytics-section {
+    padding-top: 10px;
+    padding-bottom: 70px;
+}
+  .analytics-sub-heading {
+    font-size: 30px;
+}
+.analytics-section-content {
+  flex-wrap: wrap;
+}
+.analytics-chart-div {
+  width: 80%;
+  margin: 0 auto;
+}
+.analytics {
+  width: 100%;
+  text-align: center;
+  margin-left: 0px;
+}
+.analytics-heading-div {
+  width: 100%;
+}
+.analytics-sub-heading-div {
+  width: 100%;
+}
+.analytics-info-div {
+  margin-top: 20px;
+  width: 100%;
+}
+.analytics-card{
+  
+  width: 48%;
+  text-align: center;
+}
+.analytics-card-icon-div {
+  margin: 0 auto;
+  height: 23%;
+}
+.analytics-card-heading-div {
+  margin: 19px 0px 7px 0px;
+  width: 100%;
+}
+.analytics-card-heading {
+  text-align: center;
+}
+.analytics-card-info-div {
+  width: 100%;
+}
+.analytics-button {
+  background-position-y: center;
+  background-position-x: 72%;
+  width: 100%;
+  background-size: 136px 92px;
+}
+.analytics-button button{
+
+  padding: 10px 0px 11px 24px;
+}
+  /* more features section */
+  .more-features-sub-heading {
+    font-size: 32px;
+}
+.more-features-info-div {
+  width: 100%;
+}
+.more-features-cards-div{
+  flex-wrap: wrap;
+}
+.more-features-card {
+  width: 50%;
+}
+.more-features-card-heading{
+  font-size: 18px;
+}
+.more-features-card-info{
+  font-size: 15px;
+}
+.section-dividing-line {
+  margin-top: 85px;
+}
+  /* collaborate section */
+  .collaborate-section {
+    flex-wrap: wrap;
+    padding-bottom: 27px;
+}
+
+.collaborate-content {
+  margin-top: 0px;
+  width: 100%;
+  text-align: center;
+}
+.collaborate-heading{
+  text-align: center;
+}
+.collaborate-sub-heading{
+  text-align: center;
+  font-size: 32px;
+  
+}
+.collaborate-info-div{
+  width: 100%;
+  
+}
+.collaborate-info{
+  text-align: center;
+
+}
+.collaborate-checkbox-info-div {
+  margin: 0px auto 63px auto;
+  row-gap: 21px;
+  width: 84%;
+  column-gap: 60px;
+}
+.collaborate-checkbox-icon-plus-info-div {
+  width: 43%;
+}
+
+
+.collaborate-image-section{
+  height: 388px;
+  width: 100%;
+}
+  .lady1-div {
+    width: 22%;
+    top: 13%;
+    left: 27%;
+    height: 39%;
+}
+  .man1-div {
+    width: 26%;
+    top: 5%;
+    right: 23%;
+    height: 48%;
+}
+.lady2-div {
+  width: 18%;
+  left: 34%;
+  bottom: 19%;
+  height: 25%;
+}
+.man2-div {
+  width: 22%;
+  right: 24.5%;
+  bottom: 12%;
+  height: 31%;
+}
+.collaborate-pattern-div {
+  right: 42.5%;
+  bottom: 8%;
+  width: 10%;
+}
+  /* integration section */
+
+  .integration-section {
+    margin-bottom: 40px;
+    height: 735px;
+}
+  .integration-content {
+    position: relative;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+}
+  .integration-sub-heading-div {
+    width: 62%;
+    margin: 12px auto 20px auto;
+}
+.integration-sub-heading {
+  font-size: 28px;
+  line-height: 39px;
+}
+.integration-info-div {
+  width: 59%;
+}
+.integration-images {
+  position: relative;
+  width: 100%;
+  height: 49%;
+  margin-top: 50px;
+}
+.left-line1-div {
+  
+  
+}
+.left-line1-img {
+  width: 50%;
+  left: 5%;
+    top: 0%;
+}
+.left-line2-div {
+  
+  
+}
+.left-line2-img {
+  width: 50%;
+  left: 12%;
+    top: 2%;
+}
+.left-line3-div{
+  
+  
+  }
+  .left-line3-img{
+  width: 50%;
+  left: 18%;
+  top: 4%;
+  }
+  .right-line1-div{
+  
+    
+  }
+  .right-line1-img{
+  
+  width: 50%;
+  right: 5%;
+    top: 0%;
+  }
+  .right-line2-div{
+  
+    
+  }
+  .right-line2-img{
+  
+  width: 50%;
+  right: 12%;
+    top: 2%;
+  }
+  .right-line3-div{
+  
+    
+  }
+  .right-line3-img{
+  
+  width: 50%;
+  right: 18%;
+    top: 4%;
+  }
+
+
+  .left-icon1-div{
+    
+    left: 17%;
+    top: 3%;
+    }
+    .left-icon1-img{
+      width: 60%;
+    }
+    .left-icon2-div{
+    
+      bottom: 2%;
+    left: 11%;
+    }
+    .left-icon2-img{
+    width: 60%;
+    }
+    .left-icon3-div{
+    
+      top: 45%;
+      left: 12%;
+    }
+    .left-icon3-img{
+    width: 60%;
+    }
+    .right-icon1-div{
+    
+      right: 8%;
+      top: 3%;
+    }
+    .right-icon1-img{
+    width: 60%;
+    }
+    .right-icon2-div{
+    
+      bottom: 2%;
+    right: 2%;
+    }
+    .right-icon2-img{
+    width: 60%;
+    }
+    .right-icon3-div{
+    
+      top: 45%;
+      right: 4%;
+    
+    }
+    .right-icon3-img{
+    width: 60%;
+    }
+
+
+
+  /* reviews section */
+  .clients-div {
+    flex-wrap: wrap;
+    row-gap: 22px;
+    justify-content: space-between;
+}
+
+.user-review {
+  width: 42%;
+}
+  /* pricing section */
+  .pricing-section {
+    margin-top: 0px;
+}
+.pricing-section-wave {
+  padding-bottom: 33px;
+}
+.pricing-section-heading-div {
+  width: 28%;
+}
+.pricing-section-sub-heading-div {
+  width: 72%;
+}
+.pricing-section-sub-heading-para {
+  font-size: 28px;
+}
+.pricing-section-info-para {
+  text-align: center;
+  font-size: 17px;
+}
+.pricing-section-info-div {
+  width: 67%;
+}
+.billing-monthly {
+  width: 22%;
+}
+.choose-option {
+  width: 12%;
+}
+.plan-options {
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+.plan {
+  width: 51%;
+  margin: 0 auto;
+}
+.plan-top-tab {
+  height: 8px;
+}
+.button-text {
+  margin: 0px 0px 0px 24px;
+}
+.standard-btn-margin-top {
+  margin-top: 48px;
+}
+
+  /* footer section */
+  .footer-flex-div {
+    flex-wrap: wrap;
+    row-gap: 30px;
+}
+.footer-sections-div {
+  width: 50%;
+  text-align: center;
+}
+  .footer-section-heading {
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+}
+.footer-section-items{
+  text-align: center;
+}
+.footer-logo-section {
+  order: 2;
+  width: 100%;
+  text-align: center;
+}
+.ehya-logo {
+  width: 14%;
+}
+.footer-logo-info-div {
+  padding: 16px 0px 14px 0px;
+  /* width: 60%; */
+  /* width: 220px; */
+  width: 100%;
+  /* text-align: center; */
+}
+.footer-logo-info {
+  font-family: var(--masterFont2);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #5a7184;
+}
+.social-media-div {
+  display: flex;
+  width: 37%;
+  text-align: center;
+  margin: 0 auto;
+}
+.footer-logo-section-logo {
+  padding: 16px 6px 0px 0px;
+  width: 25%;
+}
+
+.footer-copyright-section {
+  margin-top: 50px;
+}
+
+
+
+
   /* top section */
   /* features section */
   /* analytics section */

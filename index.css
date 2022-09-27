@@ -26,6 +26,9 @@ header {
   align-items: center;
   padding-top: 30px;
 }
+.hamburger-div{
+  display: none;
+}
 .nav-bar-ul {
   display: flex;
   align-items: center;
@@ -392,7 +395,6 @@ width: 15%;
   font-size: 36px;
   font-weight: 700;
   line-height: 48px;
-  letter-spacing: 0.20000000298023224px;
   text-align: center;
   color: #183b56;
 }
@@ -574,10 +576,10 @@ width: 15%;
     right: 6%;
     width: 34%;
     height: 32%;
-    height: 32%;
 
 
 }
+
 .collaborate-pattern-div{
  
   position: absolute;
@@ -737,56 +739,49 @@ width: 100%;
   width: 100%;
   height: 100%;
 }
-.lines-div{
 
-}
 .left-line1-div{
-position: absolute;
+}
+.left-line1-img{
+  position:absolute;
 left: 4%;
   top: 0%;
 }
-.left-line1-img{
-  
-}
 .left-line2-div{
-position: absolute;
+}
+.left-line2-img{
+position:absolute;
 left: 10%;
   top: 4%;
 }
-.left-line2-img{
-
-}
 .left-line3-div{
+}
+.left-line3-img{
 position: absolute;
 left: 15%;
 top: 11%;
 }
-.left-line3-img{
-
-}
 .right-line1-div{
-position: absolute;
+}
+.right-line1-img{
+position:absolute;
 right: 4%;
   top: 0%;
 }
-.right-line1-img{
-
-}
 .right-line2-div{
+}
+.right-line2-img{
 position: absolute;
 right: 10%;
 top: 4%;
 }
-.right-line2-img{
+.right-line3-div{
 
 }
-.right-line3-div{
+.right-line3-img{
 position: absolute;
 right: 15%;
 top: 11%;
-}
-.right-line3-img{
-
 }
 .icons-div{
 
@@ -861,7 +856,6 @@ top: 41%;
   display: flex;
   justify-content: space-evenly;
   padding: 20px 0px 30px 0px;
-  flex-wrap: wrap;
 }
 .client-icon-div {
 }
@@ -1213,14 +1207,14 @@ footer {
   
 }
 .ehya-logo-div {
-  width: 100px;
+  /* width: 100px; */
   padding-bottom: 14px;
 }
 .ehya-logo {
 }
 .footer-logo-info-div {
   padding: 16px 0px 14px 0px;
-  width: 60%;
+  /* width: 60%; */
   width: 220px;
 }
 .footer-logo-info {
@@ -1240,10 +1234,8 @@ footer {
   padding: 16px 6px 0px 0px;
 }
 .footer-sections-div {
-  /* width: 170px; */
 }
 .footer-section {
-  /* width: 170px; */
 }
 .footer-section-heading {
   font-family: var(--masterFont2);

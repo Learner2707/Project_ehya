@@ -11,7 +11,7 @@
 .container {
   width: 1320px;
   margin: 0 auto;
-  border: 0.2px solid black;
+  /* border: 0.2px solid black; */
 }
 
 .top-section {
@@ -346,10 +346,12 @@ width: 15%;
 .analytics-button {
   background-image: url(./images/analytics\ button\ bg\ shape.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   background-size: 136px 103px;
   min-height: 150px;
   width: 60%;
+  background-position-y: center;
+  background-position-x: 63%;
 }
 .analytics-button button {
   font-family: var(--masterFont2);
@@ -362,6 +364,7 @@ width: 15%;
   padding: 14px 0px 15px 24px;
   margin-top: 40px;
   border: none;
+  box-shadow: 0px 27px 9px rgb(20,45, 65,15%);
 }
 .analytics-button button span {
   margin: 20px;
@@ -385,6 +388,9 @@ width: 15%;
   text-align: center;
   color: #36b37e;
   
+}
+.more-features-heading-mobile{
+display: none;
 }
 .more-features-sub-heading-div{
   margin-bottom: 16px;
@@ -491,6 +497,7 @@ width: 15%;
   
   margin-bottom: 20px;
 }
+
 .collaborate-sub-heading {
   font-family: var(--masterFont2);
   font-size: 36px;
@@ -500,6 +507,9 @@ width: 15%;
   color: #183b56;
   
 }
+/* .collaborate-sub-heading-mobile{
+  display: none;
+} */
 .collaborate-info-div{
   width: 70%;
     margin-bottom: 33px;
@@ -544,38 +554,38 @@ width: 15%;
 
 .lady1-div{
 
-  position: absolute;
+  /* position: absolute;
   top: 20%;
   left: 19%;
   width: 35%;
-  height: 42%;
+  height: 42%; */
 }
 .man1-div{
   
-  position: absolute;
+  /* position: absolute;
     top: 11%;
     width: 41%;
     height: 51%;
-    right: 2%;
+    right: 2%; */
 
-    box-shadow: -35px 35px 100px rgb(0 0 0 / 25%);
+    /* box-shadow: -35px 35px 100px rgb(0 0 0 / 25%); */
 }
 .lady2-div{
   
-  position: absolute;
+  /* position: absolute;
     bottom: 9%;
     left: 29%;
     width: 29%;
-    height: 27%;
+    height: 27%; */
 
 }
 .man2-div{
 
-  position: absolute;
+  /* position: absolute;
     bottom: 4%;
     right: 6%;
     width: 34%;
-    height: 32%;
+    height: 32%; */
 
 
 }
@@ -583,29 +593,49 @@ width: 15%;
 .collaborate-pattern-div{
  
   position: absolute;
-    right: 35.5%;
-    bottom: 0%;
+  right: 35.3%;
+  bottom: 3%;
     z-index: -1;
     width: 16%;
     height: 18%;
 
 }
 .lady1-img{
-  width: 100%;
+  /* width: 100%; */
   border-radius: 10px;
+    position: absolute;
+    top: 27%;
+    left: 25%;
+    width: 29%;
+    height: 34%;
   
 }
 .lady2-img{
-  width: 100%;
+  /* width: 100%; */
   border-radius: 10px;
+  position: absolute;
+  bottom: 13%;
+  left: 33%;
+  width: 25%;
+  height: 23%;
 }
 .man1-img{
-  width: 100%;
+  /* width: 100%; */
   border-radius: 10px;
-}
+    position: absolute;
+    top: 15%;
+    width: 38%;
+    height: 46%;
+    right: 5%;
+  }
 .man2-img{
-  width: 100%;
+  /* width: 100%; */
   border-radius: 10px;
+    position: absolute;
+    bottom: 6%;
+    right: 9%;
+    width: 30%;
+    height: 30%;
 }
 .collaborate-pattern-img{
 width: 100%;
@@ -787,53 +817,65 @@ top: 11%;
 
 }
 .left-icon1-div{
-position: absolute;
+/* position: absolute;
+left: 5%;
+  top: 13%; */
+}
+.left-icon1-img{
+  position: absolute;
 left: 5%;
   top: 13%;
 }
-.left-icon1-img{
-  
-}
 .left-icon2-div{
-position: absolute;
+/* position: absolute;
 bottom: 15%;
-left: 11%;
+left: 11%; */
 }
 .left-icon2-img{
-
+  position: absolute;
+  bottom: 15%;
+  left: 11%;
 }
 .left-icon3-div{
-position: absolute;
+/* position: absolute;
 top: 41%;
-  left: 10%;
+  left: 10%; */
 }
 .left-icon3-img{
-
+  position: absolute;
+  top: 41%;
+    left: 10%;
 }
 .right-icon1-div{
-position: absolute;
+/* position: absolute;
 right: 5%;
-  top: 13%;
+  top: 13%; */
 }
 .right-icon1-img{
-
+  position: absolute;
+  right: 5%;
+    top: 13%;
 }
 .right-icon2-div{
-position: absolute;
+/* position: absolute;
 bottom: 15%;
-right: 11%;
+right: 11%; */
 }
 .right-icon2-img{
-
+  position: absolute;
+  bottom: 15%;
+  right: 11%;
 }
 .right-icon3-div{
-position: absolute;
+/* position: absolute;
 top: 41%;
-  right: 10%;
+  right: 10%; */
 
 }
 .right-icon3-img{
-
+  position: absolute;
+  top: 41%;
+    right: 10%;
 }
 
 
@@ -868,6 +910,10 @@ top: 41%;
 }
 .user-review {
   width: 33%;
+}
+.divider{
+    border: 1px solid #E5EAF4;
+
 }
 .review-company-icon-div {
 }
@@ -909,6 +955,7 @@ top: 41%;
 .verification-status {
   display: flex;
   padding-top: 2px;
+  column-gap: 8px;
 }
 .verified-icon {
 }
@@ -1028,6 +1075,7 @@ top: 41%;
   border: 2px solid white;
   border-radius: 22px;
   background-color: white;
+  box-shadow: 0px 10px 10px rgba(20, 45, 65, 8%);
 }
 .choose-option-slider {
   vertical-align: middle;
@@ -1257,6 +1305,9 @@ footer {
   padding-bottom: 24px;
 }
 .footer-copyright-section {
+  
+    margin-top: 50px;
+
 }
 .heart-icon-div {
   width: 60px;

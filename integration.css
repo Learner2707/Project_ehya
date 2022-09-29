@@ -1,7 +1,9 @@
 body{
     height: 2000px;
 }
-
+.pos{
+  position: absolute;
+}
 .integration-section {
 
 
@@ -76,7 +78,9 @@ left: 4%;
     top: 0%;
 }
 .left-line1-img{
-    
+    position: absolute;
+    left: 39px;
+    top: 0px;
 }
 .left-line2-div{
 position: absolute;
@@ -84,7 +88,9 @@ left: 10%;
     top: 4%;
 }
 .left-line2-img{
-
+position: absolute;
+left: 112px;
+    top: 31px;
 }
 .left-line3-div{
 position: absolute;
@@ -92,7 +98,9 @@ left: 15%;
 top: 11%;
 }
 .left-line3-img{
-
+position: absolute;
+left: 187px;
+    top: 67px;
 }
 .right-line1-div{
 position: absolute;
@@ -100,7 +108,9 @@ right: 4%;
     top: 0%;
 }
 .right-line1-img{
-
+position: absolute;
+right: 39px;
+top: 0px;
 }
 .right-line2-div{
 position: absolute;
@@ -108,7 +118,9 @@ right: 10%;
 top: 4%;
 }
 .right-line2-img{
-
+position: absolute;
+right: 112px;
+    top: 31px;
 }
 .right-line3-div{
 position: absolute;
@@ -116,7 +128,9 @@ right: 15%;
 top: 11%;
 }
 .right-line3-img{
-
+position: absolute;
+right: 187px;
+    top: 67px;
 }
 .icons-div{
 
@@ -127,7 +141,9 @@ left: 5%;
     top: 13%;
 }
 .left-icon1-img{
-    
+  position:absolute;
+  left: 100px;
+  top: 31px;
 }
 .left-icon2-div{
 position: absolute;
@@ -135,7 +151,9 @@ bottom: 15%;
 left: 8%;
 }
 .left-icon2-img{
-
+  position:absolute;
+  bottom: 80px;
+  left: 150px;
 }
 .left-icon3-div{
 position: absolute;
@@ -143,7 +161,9 @@ top: 41%;
     left: 10%;
 }
 .left-icon3-img{
-
+  position:absolute;
+  top: 235px;
+  left: 140px;
 }
 .right-icon1-div{
 position: absolute;
@@ -151,6 +171,9 @@ right: 5%;
     top: 13%;
 }
 .right-icon1-img{
+  position:absolute;
+  right: 116px;
+  top: 31px;
 
 }
 .right-icon2-div{
@@ -159,7 +182,9 @@ bottom: 15%;
 right: 8%;
 }
 .right-icon2-img{
-
+  position:absolute;
+  bottom: 100px;
+  right: 146px;
 }
 .right-icon3-div{
 position: absolute;
@@ -168,5 +193,7 @@ top: 41%;
 
 }
 .right-icon3-img{
-
+  position:absolute;
+  top: 222px;
+  right: 147px;
 }

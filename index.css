@@ -29,6 +29,9 @@ header {
 .hamburger-div{
   display: none;
 }
+.nav-bar-drop-down-arrow{
+  padding-top: 3px;
+}
 .nav-bar-ul {
   display: flex;
   align-items: center;
@@ -287,7 +290,7 @@ width: 15%;
 }
 .analytics-sub-heading-div{
   margin-top: 16px;
-  width: 70%;
+  width: 74%;
 }
 .analytics-sub-heading {
   font-family: var(--masterFont2);
@@ -353,6 +356,7 @@ width: 15%;
   background-position-y: center;
   background-position-x: 63%;
 }
+
 .analytics-button button {
   font-family: var(--masterFont2);
   font-size: 18px;
@@ -366,8 +370,9 @@ width: 15%;
   border: none;
   box-shadow: 0px 27px 9px rgb(20,45, 65,15%);
 }
-.analytics-button button span {
-  margin: 20px;
+.analytics-button button img {
+  /* margin: 20px; */
+  margin: 0 20px;
 }
 
 /* ******************more features section*************** */
@@ -974,7 +979,8 @@ top: 41%;
 .pricing-section {
   background: linear-gradient(180deg, #f8fbff 0%, #fcfeff 100%);
   padding-bottom: 120px;
-  margin-top: 89px;
+  /* margin-top: 89px; */
+  margin-top: 0px;
 }
 .pricing-section-wave {
   padding-bottom: 140px;
@@ -1220,6 +1226,7 @@ top: 41%;
   border-width: 2px;
   border-style: solid;
   border-radius: 8px;
+  align-items: center;
 }
 .plan-normal-btn-color {
   color: #1565d8;
